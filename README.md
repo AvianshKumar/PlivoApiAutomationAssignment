@@ -17,7 +17,11 @@ Structure Of this TestSuite:-
 
 All the Api's testcases are written in TestCases Packages with there respective Api Test classes.
 Basically there are 4 Test Class Name as :-
+
 1:-CreateChannelsTest
+
 2:-JoinChannelsTest
+
 3:-RenameChannelsTest
+
 4:-ArchiveTest
