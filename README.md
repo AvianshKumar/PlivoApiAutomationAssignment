@@ -11,11 +11,11 @@ Steps to Run the Test Suite:
   1) Clone the project on to your local system
   2) Right-Click on the file testng.xml and execute the 'Run' command from there OR run using maven command on terminal.
   
-Note: Please ensure that the above said changes are done correctly, as the failure or success of testcases depends on these changes.
 
 Structure Of this TestSuite:-
 
 All the Api's testcases are written in TestCases Packages with there respective Api Test classes.
+
 Basically there are 4 Test Class Name as :-
 
 1:-CreateChannelsTest
@@ -25,3 +25,5 @@ Basically there are 4 Test Class Name as :-
 3:-RenameChannelsTest
 
 4:-ArchiveTest
+
+Note: Please ensure that the above said changes are done correctly, as the failure or success of testcases depends on these changes.
