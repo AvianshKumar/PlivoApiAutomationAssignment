@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="plivoApiAutomation">	
+<test thread-count="4" name="ChannelsRestApiTest" preserve-order="true">
+   <classes>
+       <class name = "Testcases.CreateChannelsTest"></class>
+       <class name = "Testcases.JoinChannelsTest"></class>
+       <class name = "Testcases.RenameChannelsTest"></class>
+       <class name = "Testcases.ArchiveTest"></class>
+   </classes>
+</test>
+</suite>
