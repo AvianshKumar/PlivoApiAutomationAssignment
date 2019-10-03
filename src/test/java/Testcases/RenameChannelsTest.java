@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 public class RenameChannelsTest extends TestBase {
 
+    public String temp = "CP04JNNSH";
     public String RenameChannelsname = "gfhf";
     public String name_with_legal_special_charecter_1 = "channels-12_--";
     public String name_with_more_than_given_length_1 = "jdssssssssy88sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss";
@@ -208,7 +209,7 @@ public class RenameChannelsTest extends TestBase {
 
         //Request Paylaod sending along with post request
         JSONObject requestParams = new JSONObject();
-        requestParams.put("channel", "CP04JNNSH");
+        requestParams.put("channel", temp);
         requestParams.put("name", "kjdshkj");
         requestParams.put("validate", "true");
 
